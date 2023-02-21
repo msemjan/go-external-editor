@@ -11,13 +11,13 @@ user to modify it.
 
 Possible use-cases of using an external editor from your Go App:
 1. Editing your configuration files from within the app (maybe with
-   verification of the settings)
+   validation of the settings that were inputted by the user)
 2. Create files from templates and let the user modify them
-3. For longer inputs from the user
+3. For longer inputs from the user, e.g. a [diary with encryption](https://jrnl.sh/en/stable/)
 4. When your application just finds/manages files for the user, but their
    editing is delegated to an external editor.
 
-## Usage
+## How to run this example? 
 
 1. Clone this repository
 2. Run the app `go run main.go`
